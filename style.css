@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    list-style-type:none;
+}
+body{
+    background-color: #15202B;
+    color:white;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+}
+.menu-item{
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 300ms;
+
+}
+.menu-item:hover{
+    background-color: #2D3741;
+}
+.left{
+    padding: 0;
+}
+.main{
+    width: 80%;
+}
+#twitter-icon{
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+.menu-item-icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.tweet-button{
+    width: 60%;
+
+    color: white;
+    font-size: 17px;
+}
+
+
+.pp-image{
+    width: 60%;
+    height: auto;
+    
+}
+.tweet-image{
+    width: 100%;
+    height: auto;
+}
+.tweet-image-area{
+    padding-left: 10px;
+}
+.tweet-left{
+    padding: 0;
+}
+input[type="text"], textarea {
+
+    background-color : #15202B; 
+    border: none;
+    font-size: 20px;
+  }
+  .main-icon{
+      margin-right: 15px;
+  }
+  .main-tweet{
+      text-align: right;
+      margin-bottom: 8px;
+      
+  }
+  .main-tweet-button{
+      color: white;
+  }
+.right{
+    padding-left: 30px;
+}
+#search{
+    background-color : #253341; 
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.deneme{
+    margin-top: 5px;
+    height: 40px;
+    color: #445361;
+    background-color : #253341; 
+    border-radius: 20px;
+    margin-bottom: 15px;
+
+}
+.search-icon{
+    margin-top: 12px;
+    margin-left: 9px;
+}
+.topic{
+    background-color : #192734; 
+    
+    border-radius: 12px;
+    
+}
+.topic-header{
+    
+    font-weight: bolder;
+}
+
+.topic-top{
+    padding: 10px;
+}
+.topic-item-content{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+.topic-item-count,.topic-item-header{
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+.topic-item{
+    padding-left: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 200ms;
+
+}
+.topic-item:hover{
+    background-color:#202E3A;
+}
